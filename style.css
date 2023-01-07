@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+/* Mini - Header Start */
+
+#mini-header{
+    background-color: #f092d8fd;
+    padding: 10px 0px;
+}
+
+.mini-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+}
+
+/* Header Start */
+#header{
+  
+    background-color: #f6fbff;
+
+}
+
+#header:hover{
+    background-color: #ffffff;
+    transition: 3s;
+
+}
+.header ul {
+    color: blue;
+}
+
+
+
+.icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   padding: 9px;
+    color: white;
+    background-color: #068bf8;
+    height: 30px;
+    width: 30px;
+  border-radius: 50%;
+  
+}
+.icon :hover {
+    background-color: palevioletred;
+    transform: scale(1.5);
+   
+}
+/* Card Class */
+
+.class {
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.inner{
+    overflow: hidden;
+
+}
+ .inner img{
+    
+    transition: all 1.5s ease;
+        border-radius: 8px;
+        padding: 5px;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+
+ }
+
+ .inner:hover img {
+    transform: scale(1.5);
+ }
+ .h5.card-title {
+    color: blue;
+ }
+
+/* Home */
+
+.card-img-overlay {
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+position: absolute
+}
+
+
+ #home h1,h1 {
+        margin: 0;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        color: rgb(255, 255, 255);
+        font-family: "Poppins", sans-serif;
+    }
+#home h2,h2 {
+    color: rgb(0, 0, 0);
+    }
+    #home .btn-menu {
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 12px 30px;
+        border-radius: 50px;
+        transition: 0.3s;
+        line-height: 1;
+        color: rgb(0, 0, 0);
+        border: 2px solid #cda45e;
+        text-decoration: none;
+        background-color: rgb(255, 0, 0);
+    }
+    #home .btn-book {
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 12px 30px;
+        border-radius: 50px;
+        transition: 0.3s;
+        line-height: 1;
+        color: rgb(0, 0, 0);
+        border: 2px solid #cda45e;
+        text-decoration: none;
+        background-color: rgb(255, 0, 0);
+    }
+    #home .btns {
+        margin-top: 30px;
+        box-sizing: border-box;
+
+    }
+/* Footer */    
+#Welcome{
+    display: inline;
+}
+#contact_us {
+    padding: 0px 0px;
+}
+.footer{
+        font-size: 14px;
+        background-color: #0e0e0e;
+        padding: 50px 0;
+        color: rgba(255, 255, 255, 0.7)
+}
+.footer :hover {
+    color: blue;
+    transition: all 3s;
+}
+.footer .social-links a {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: rgba(205, 110, 110, 0.7);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.section {
+    scroll-margin-top: 90px;
+}
+.section {
+    overflow: hidden;
+    padding: 80px 0;
+}
+#home.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon {
+    background-color: rgb(71, 6, 250);
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    list-style: none;
+    color: white;
+    font-weight: 200;
+    
+}
+
+
+
+/* signup */
+body {
+    height: 100%;
+    background-color: rgb(179, 216, 250) !important;
+    
+    
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.global_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+form {
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.login-form {
+    width: 380px;
+    height: 450px;
+    margin: 20px;
+    background: #050505 !important;
+    border-radius: 10px !important;
+
+}
+ input[type="email"]:focus,
+ input[type="password"]:focus{
+    background: #d6efff;
+    border: 2px solid #068bf8;
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+ }
+ .card-title {
+    border-radius: 30px;
+    color: #050505;
+ }
+
+
+
+
+
+
+
+ section {
+    padding: 0px 0;
+    overflow: hidden;
+}
+.h1, h1 {
+    
+    color: rgb(255, 255, 255);
+}
+.book-a-table .php-email-form button[type=submit] {
+    background: #cda45e;
+    border: 0;
+    padding: 10px 35px;
+    color: rgb(250, 252, 250);
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.book{
+
+
+width: 1310px;
+height: 475px;
+margin: 20px;
+background: #e9a9a9 !important;
+border-radius: 10px !important;
+}
